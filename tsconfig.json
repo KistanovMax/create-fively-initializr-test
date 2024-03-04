@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "moduleResolution": "Node",
+    "declaration": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ESNext"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

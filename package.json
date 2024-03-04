@@ -1,0 +1,43 @@
+{
+  "name": "create-fively-initializr-test",
+  "description": "Fively Initializr",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "bin": {
+    "create-max-fively-initializr": "dist/index.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com"
+  },
+  "keywords": [
+    "test",
+    "fively-initializr"
+  ],
+  "author": "maxim-kistanov",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "deploy:package": "npm publish"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "colors": "^1.4.0",
+    "fs-extra": "^11.1.1",
+    "gradient-string": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/gradient-string": "^1.1.5",
+    "@types/node": "^20.11.19",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
